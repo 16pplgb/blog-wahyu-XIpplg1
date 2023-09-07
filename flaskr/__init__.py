@@ -1,5 +1,13 @@
 # inmport aplikasi flask untuk dipakai di web kita
-from flask import Flask
+import os
+
+#import SQL utk akses database
+from cs50 import SQL
+# import flas untuk notifikasi pada web
+# inmport jsonify utk formart data
+# import redirect dan render_template untuk berpindah halaman web
+# import request dan session untuk akses data
+from flask import Flask, flas ,jsonify ,redirect, render_template, request, session
 
 #mengatur nama aplikasi
 app = Flask(__name__)
